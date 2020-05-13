@@ -1,0 +1,149 @@
+<html>
+<head>
+<style>
+body{
+	margin: 0;
+	background-image: url("ranger-4df6c1b6.png");
+	background-size: 100% 100%;	
+}
+.navbar {
+  background-color: black;
+  overflow: auto;
+}
+
+.navbar a {
+  float: right;
+  padding: 12px 16px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: white;
+  color: black;
+
+}
+
+.active {
+  background-color: white;
+  color: black;
+}
+.write{
+	float: right;
+  overflow: hidden;
+  padding: 12px 16px;
+  font-family: inherit;
+  margin: 20px;
+}
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  color: white;
+  background-color: #f4511e;
+  font-family: inherit;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.dropdown:hover .dropbtn {
+  background-color: red ;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ddd;
+  width: 100px;
+ }
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f4511e;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.logo {
+  float: left;
+  overflow: hidden;
+  font-size: 16px;
+  color: red;
+  padding: 12px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.main{
+	margin-top:10px;
+	margin-right: 400px;
+	padding: 150px;
+	float: right;
+	width:500px;
+	clear: right;
+	text-align: center;
+}
+.button {
+  background-color: #f4511e;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+	opacity: 1;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+</style>
+</head>
+<body>
+<div class="navbar">
+	<div class="logo">
+  	<h1>TechXpert</h1>
+  	</div>
+<div class="write">
+	<a href="">Contact Us</a>
+	<a href="">About Us</a>
+	<a href="">Services</a>
+	<a href="">Home</a>
+	
+	<div class="dropdown">
+  <div class="dropbtn">Menu</div>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+ </div>
+</div>
+</div>
+ <div class="main">
+ 	<h1>CREATIVE DESIGN</h1>
+	<P>Welcome to our Website</P>
+	<p><button class="button">Learn More</button></p>
+ </div>
+
+</body>
+</html>
